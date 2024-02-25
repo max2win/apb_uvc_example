@@ -29,7 +29,7 @@ class apb_agent extends uvm_agent;
 	protected int agent_kind;
 
 	`uvm_component_utils_begin(apb_agent)
-    `uvm_field_int(agent_kind, UVM_ALL_ON)
+          `uvm_field_int(agent_kind, UVM_ALL_ON)
 	`uvm_component_utils_end
 
 	apb_sequencer seqr;
