@@ -22,7 +22,7 @@ class apb_cfg extends uvm_object;
 	int n_iter = 1;
 
 	`uvm_object_utils_begin(apb_cfg)
-	    `uvm_field_int( n_iter, UVM_ALL_ON | UVM_DEC )
+    `uvm_field_int( n_iter, UVM_ALL_ON | UVM_DEC )
 	`uvm_object_utils_end
 
 	function new(string name = "apb_cfg");
